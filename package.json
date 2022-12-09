@@ -1,0 +1,36 @@
+{
+  "name": "v70_6",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "build:android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/index.android.bundle --assets-dest android/app/src/res/"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.46.4",
+    "@react-three/fiber": "^8.9.1",
+    "expo": "^47.0.0",
+    "expo-gl": "~12.0.1",
+    "r3f-native-orbitcontrols": "^1.0.4",
+    "react": "18.1.0",
+    "react-native": "0.70.6",
+    "three": "^0.147.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "0.72.3",
+    "react-test-renderer": "18.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
